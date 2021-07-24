@@ -1,0 +1,27 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaSt12/test-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaSt12/test-webpack/issues"
+  },
+  "homepage": "https://github.com/MarinaSt12/test-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
